@@ -1,0 +1,21 @@
+dsn = "root:root@tcp(127.0.0.1:3306)/shorturl"
+driver = "mysql"
+proType = "ant4popup"
+enableModule = []
+apiPrefix = "/api/adminß"
+gitRemotePath = "git@github.com:mygomod/bee-gin-pro.git"
+enableFormat = false
+sourceGen = "text"
+enableGitPull = false
+[models.summary]
+names = ["id","date","author"]
+orms = ["auto","string","string"]
+comments = ["id","标题","编辑"]
+[models.shorturl]
+names = ["id","title","summary_id","url"]
+orms = ["auto","string","int","string"]
+comments = ["id","标题","汇总id","url"]
+[path]
+beego =  "./"
+ant  = "./webui/src/pages/"
+		
