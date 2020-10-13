@@ -1,1 +1,6 @@
 name="test"
+[BConfig.Listen]
+    EnableAdmin = true
+    AdminAddr = "localhost"
+    AdminPort = 8088
+

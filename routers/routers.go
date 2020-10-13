@@ -5,6 +5,6 @@ import (
 	"shorturl-admin/controllers"
 )
 
-func init() {
+func Init() {
 	web.Router("/", &controllers.AppController{}, "get:Info")
 }

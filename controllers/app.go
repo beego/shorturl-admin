@@ -12,7 +12,9 @@ type AppController struct {
 
 func (c *AppController) Info() {
 	res, _ := invoker.Cfg.String(context.Background(), "name")
-	c.Data["json"] = res
+	c.Data["json"] = map[string]string{
+		"info": res,
+	}
 	c.ServeJSON()
 	return
 }
