@@ -19,15 +19,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9316d10-86d3-49a7-a3bd-3ce52f282d79" name="Default Changelist" comment="" />
+    <list default="true" id="f9316d10-86d3-49a7-a3bd-3ce52f282d79" name="Default Changelist" comment="bee init shorturl">
+      <change afterPath="$PROJECT_DIR$/config/local.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/invoker/invoker.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/routers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/api/bee_default_api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/api/shorturl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/api/summary.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/model/bee_default_model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/model/shorturl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/model/summary.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/router/core/core.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/router/shorturl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/router/summary.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/trans/trans.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1ie4Bno1jrxVXF1jKRUprcGyUTZ" />
   <component name="ProjectViewState">
@@ -35,14 +63,42 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/webui/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/webui/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="shorturl-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="shorturl-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,5 +114,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bee init shorturl" />
+    <option name="LAST_COMMIT_MESSAGE" value="bee init shorturl" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="189" key="RollbackChangesDialog" timestamp="1602597410263">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="488" y="189" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1602597410263" />
+    <state x="320" y="188" key="Vcs.Push.Dialog.v2" timestamp="1602515441126">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="188" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602515441126" />
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1602599630822">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1602599630822" />
   </component>
 </project>
