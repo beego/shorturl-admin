@@ -3,4 +3,8 @@ name="test"
     EnableAdmin = true
     AdminAddr = "localhost"
     AdminPort = 8088
-
+[beego.mysql]
+    debug=true
+    dsn="root:root@tcp(127.0.0.1:3306)/shorturl?charset=utf8mb4&collation=utf8mb4_general_ci&parseTime=True&loc=Local&readTimeout=1s&timeout=1s&writeTimeout=3s"
+    maxIdleConns =  50
+    maxOpenConns = 100
